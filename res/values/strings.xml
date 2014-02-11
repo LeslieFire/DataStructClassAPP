@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello"></string>
+	<string name="app_name">DataStructureExercises</string>
+	<string name="prompt_wrong">"很可惜！答错了，正确答案为 "</string>
+	<string name="prompt_right">"恭喜你！答对了"</string>
+</resources>

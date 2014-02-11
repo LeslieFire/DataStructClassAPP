@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/menu">
+	
+    <RelativeLayout android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+		
+		<ImageButton android:id="@+id/ibtn_about" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20px"
+			android:layout_marginLeft="18px" 
+			android:src="@drawable/abouts5"
+			android:background="#00ffffff"></ImageButton>
+		
+        <ImageButton
+		    android:id="@+id/ibtn_option"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+			android:layout_marginTop="20px"
+			android:layout_marginRight="18px" 
+		    android:src="@drawable/settings4"
+		    android:background="#00ffffff" />
+		
+
+	</RelativeLayout>
+    	
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:scrollbars="vertical"
+		android:layout_marginTop="16px">
+
+		<ImageButton android:id="@+id/ibtn_order" 
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center" 
+			android:layout_marginTop="50px"
+			android:src="@drawable/orderexercise1"
+			android:background="#00ffffff" ></ImageButton>
+		
+		<ImageButton android:id="@+id/ibtn_rdm"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"			
+			android:layout_marginTop="50px"
+			android:layout_gravity="center" 
+			android:src="@drawable/randomexercise2"
+			android:background="#00ffffff"></ImageButton>
+
+		<ImageButton android:id="@+id/ibtn_test"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"			
+			android:layout_marginTop="50px"
+			android:layout_gravity="center" 
+			android:src="@drawable/virtualcontest3"
+			android:background="#00ffffff"></ImageButton>
+
+
+		<ImageButton android:id="@+id/ibtn_myWAset"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"			
+			android:layout_marginTop="50px"
+			android:layout_gravity="center" 
+			android:src="@drawable/review4"
+			android:background="#00ffffff"></ImageButton>
+		
+	</LinearLayout>
+
+
+</LinearLayout>

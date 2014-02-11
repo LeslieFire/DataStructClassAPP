@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/personbackground"
+    >
+     
+    <LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		
+		<ImageButton android:id="@+id/btn_return" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_marginTop="20px"
+			android:layout_marginLeft="18px" 
+			android:src="@drawable/return3"
+			android:background="#00ffffff"></ImageButton>		
+
+	</LinearLayout>
+	
+    <LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingLeft="50px" android:paddingTop="30px"
+		android:paddingRight="50px" android:scrollbars="vertical"
+		android:layout_marginTop="24px">
+		<CheckBox
+			android:id="@+id/chk_autocheck"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="练习自动确认"></CheckBox>
+			
+		<CheckBox
+			android:id="@+id/chk_auto2next"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="练习答对后自动跳转下一题"></CheckBox>
+			
+		<CheckBox
+			android:id="@+id/chk_auto2addWAset"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="练习错题自动加入我的错题库"></CheckBox>	
+
+	</LinearLayout>
+	
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:gravity="bottom"
+		android:layout_marginBottom="9px">
+
+		<ImageButton android:id="@+id/btn_savesetting" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:src="@drawable/save3"
+			android:layout_gravity="center"
+			android:background="#00ffffff"></ImageButton>	
+	</LinearLayout>
+</LinearLayout>

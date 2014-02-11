@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/randombackground">
+	
+    <LinearLayout 
+		android:layout_width="wrap_content" android:layout_height="wrap_content">		
+		
+        
+		<ImageButton android:id="@+id/return_btn" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:src="@drawable/return3"
+			android:layout_marginTop="20px"
+			android:layout_marginLeft="18px" 
+			android:background="#00ffffff"></ImageButton>		
+
+	</LinearLayout>
+    
+    
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_weight="4" android:scrollbars="vertical"
+		android:layout_marginTop="24px">
+
+		<TextView android:id="@+id/pro_text" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="test"></TextView>
+		<ImageView android:id="@+id/imageview" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:scaleType="fitCenter"></ImageView>
+		<RadioGroup android:id="@+id/radioGroup"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<RadioButton android:id="@+id/radioA"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="A">
+			</RadioButton>
+
+			<RadioButton android:id="@+id/radioB"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="B">
+			</RadioButton>
+
+			<RadioButton android:id="@+id/radioC"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="C">
+			</RadioButton>
+
+			<RadioButton android:id="@+id/radioD"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="D">
+			</RadioButton>
+		</RadioGroup>
+
+	</LinearLayout>
+
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_weight="1">
+		<TextView android:id="@+id/promptText" android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+		</TextView>
+	</LinearLayout>
+	
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_weight="1" android:gravity="bottom"
+		android:layout_marginLeft="18px" 
+		android:layout_marginBottom="9px">
+		
+		<ImageButton android:id="@+id/forwordBtn" 
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/backward6"
+			android:background="#00ffffff" ></ImageButton>
+		
+		<ImageButton android:id="@+id/checkBtn" 
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/confirm8"
+			android:background="#00ffffff" ></ImageButton>
+
+		<ImageButton android:id="@+id/addWAsetBtn" 
+		    android:layout_width="wrap_content"	 android:layout_height="wrap_content"
+		    android:src="@drawable/wrongcounts5"
+		    android:background="#00ffffff"></ImageButton>
+
+		<ImageButton android:id="@+id/unaddWAsetBtn" 
+		    android:layout_width="wrap_content"	 android:layout_height="wrap_content"
+		    android:src="@drawable/unwrongcounts5"
+		    android:background="#00ffffff"
+		    android:visibility="gone"
+		    ></ImageButton>
+
+		<Chronometer
+			android:id="@+id/exam_chronometer"
+			android:layout_width="160px"   
+			android:layout_height="wrap_content"  
+			android:gravity="center_horizontal"
+			android:textSize="12pt"
+			android:visibility="gone"></Chronometer>
+		<!-- android:visibility="gone"/> -->
+					
+		<ImageButton android:id="@+id/nextBtn" 
+		    android:layout_width="wrap_content"	 android:layout_height="wrap_content"
+		    android:src="@drawable/forward7"
+		    android:background="#00ffffff"></ImageButton>
+	</LinearLayout>
+</LinearLayout>
